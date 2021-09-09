@@ -11,3 +11,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.divPadre {
+    margin: 0 auto;
+    background-color: rgb(233, 235, 235);
+    width: 500px;
+    height: 500px;
+}
+.divFatherStick{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+   
+}
+
+.stick{
+    height: 200px;
+    width: 20px;
+    background-color: black;
+
+}
+
+.divFatherBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Box{
+    height: 200px;
+    width: 80px;
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.lamp{
+    width: 60px;
+    height:60px ;
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.lamp:hover{
+    box-shadow: 0 0 12px 7px white;
+}
+
